@@ -18,10 +18,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'vagrant-prison', '~> 0.1.0'
-  gem.add_dependency 'chef', '~> 10.0'
+  gem.add_dependency 'chef', '~> 11.0'
   gem.add_dependency 'aws-sdk', '~> 1.7.0'
   gem.add_dependency 'net-ssh', '~> 2.2.2'
-  gem.add_dependency 'knife-server', '~> 0.3.3'
+  gem.add_dependency 'knife-server', '~> 1.0.0'
   gem.add_dependency 'sqlite3', '~> 1.3.6'
   gem.add_dependency 'deprecated', '~> 3.0.1'
   gem.add_dependency 'json', '= 1.5.4'
